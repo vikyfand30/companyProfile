@@ -9,7 +9,8 @@ class PortfolioSection extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         children: [
-          Text('Our Portfolio', style: Theme.of(context).textTheme.headline4),
+          Text('Our Portfolio',
+              style: Theme.of(context).textTheme.headlineMedium),
           const SizedBox(height: 16.0),
           Wrap(
             spacing: 16.0,

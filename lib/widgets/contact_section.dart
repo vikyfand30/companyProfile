@@ -9,7 +9,7 @@ class ContactSection extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         children: [
-          Text('Contact Us', style: Theme.of(context).textTheme.headline4),
+          Text('Contact Us', style: Theme.of(context).textTheme.headlineMedium),
           const SizedBox(height: 16.0),
           const TextField(
             decoration: InputDecoration(

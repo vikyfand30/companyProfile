@@ -9,7 +9,8 @@ class ServicesSection extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         children: [
-          Text('Our Services', style: Theme.of(context).textTheme.headline4),
+          Text('Our Services',
+              style: Theme.of(context).textTheme.headlineMedium),
           const SizedBox(height: 16.0),
           Wrap(
             spacing: 16.0,
